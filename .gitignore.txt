@@ -1,0 +1,31 @@
+# Ignore build and intermediate files
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vscode/
+
+# Ignore platform-specific files
+*.VC.db
+*.VC.opendb
+*.sdf
+*.sln
+*.opensdf
+
+# Ignore logs and crash dumps
+*.log
+*.dmp
+
+# Ignore all crash folders
+Saved/Crashes/
+Saved/Logs/
+
+# Ignore user-specific settings
+*.user
+*.userprefs
+*.suo
+*.tmp
+
+# Optional: Ignore asset packs or staging
+*.pak
+*.zip
